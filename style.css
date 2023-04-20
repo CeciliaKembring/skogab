@@ -150,7 +150,7 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 .imgService img {
-    width: 350px;
+    width: 320px;
     
 }
 .textService{
@@ -171,19 +171,31 @@ nav ul li a:hover {
     'serviceTwo'
     'serviceThree';
 }
-.serviceOne{
+.boxService a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+.boxService a:hover{
+    color: #e87350;
+}
+.serviceOne, .serviceTwo, .serviceThree{
     position: relative;
     text-align:center;
-    color: white;
+    padding: 20px;
 }
-.serviceTitle1{
-    font-size: 35px;
+.serviceOne img, .serviceTwo img, .serviceThree img{
+    width: 300px;
+}
+
+
+.serviceTitle1, .serviceTitle2, .serviceTitle3{
+    font-size: 30px;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 400;
-    background-color: #E45D35;
     padding: 10px;
     border-radius: 10px;
 }

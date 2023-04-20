@@ -78,7 +78,8 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-/* HERO IMAGE */.hero {
+/* HERO IMAGE */
+.hero {
     position: relative;
     width: 100vh;
 }
@@ -130,6 +131,37 @@ nav ul li a:hover {
 
 .hero-button:hover {
     background-color: #e87350;
+}
+
+/* SERVICES */
+.mainService{
+    padding: 30px;
+    display: grid;
+    grid-template-areas: 
+    'imgService'
+    'textService';
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.imgService{
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+}
+.imgService img {
+    width: 300px;
+}
+.textService{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 300px;
+    
+}
+.textService h2{
+    margin-bottom: 20px;
 }
 
 /* MEDIA QUERY */

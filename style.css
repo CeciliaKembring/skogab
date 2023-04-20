@@ -78,6 +78,16 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+/* FOOTER */
+footer{
+    width: 100%;
+    color: white;
+    background-color: #505A44;
+}
+.footer-columns{
+    padding: 20px;
+}
+
 /* HERO IMAGE */
 .hero {
     position: relative;

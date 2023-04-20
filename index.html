@@ -44,9 +44,11 @@
             <div class="mainService">
                 <div class="imgService">
                     <picture>
-                        <source type="image/webp"  src="images/image1webp">
-                        <source type="image/jpg" src="images/image.jpg">
-                        <img src="images/image1.jpg" alt="Skog AB tar ner träd">
+                        <source type="image/webp" media="(min-width: 450px)" src="images/image1Small.webp">
+                        <source type="image/webp" media="(min-width: 700px)" src="images/image1Large.webp">
+                        <source type="image/jpg" media="(min-width: 450px)" src="images/image1Small.jpg">
+                        <source type="image/jpg" media="(min-width: 700px)" src="images/image1Large.jpg">
+                        <img src="images/image1Large.jpg" alt="Skog AB tar ner träd">
                     </picture>
                 </div>
                 <div class="textService">
@@ -55,10 +57,26 @@
             <p>Vi har över 20 års erfarenhet och eftersträvas alltid god kvalité och nöjda kunder.</p>
                 </div>
             </div>
-
-            <div class="serviceOne"></div>
-            <div class="serviceTwo"></div>
-            <div class="serviceThree"></div>
+            <div class="boxService">
+            <div class="serviceOne">
+                <picture>
+                    <source type="image/webp" src="images/image2.webp">
+                    <source type="image/jpg" src="images/image2.jpg">
+                    <img src="images/image2.jpg" alt="Skog AB tar ner träd">
+                </picture>
+                <h3 class="serviceTitle1">Trädfällning</h3>
+            </div>
+            <div class="serviceTwo"> <picture>
+                <source type="image/webp" src="images/image2.webp">
+                <source type="image/jpg" src="images/image2.jpg">
+                <img src="images/image2.jpg" alt="Skog AB tar ner träd">
+            </picture><h3 class="serviceTitle2">Vedklyvning</h3></div>
+            <div class="serviceThree"> <picture>
+                <source type="image/webp" src="images/image2.webp">
+                <source type="image/jpg" src="images/image2.jpg">
+                <img src="images/image2.jpg" alt="Skog AB tar ner träd">
+            </picture><h3 class="serviceTitle3">Stubbfräsning</h3></div>
+        </div>
         </section>
     </main>
     <footer>

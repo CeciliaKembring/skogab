@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monsterat', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #505A44;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    height: 120px;
+
+}
+
+.logo img {
+    height: 80px;
+}
+
+.logo {
+    padding: 10px;
+   position: absolute;
+   left: 10px;
+   top: 8px;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    
+    height: 250px;
+    background-color: #505A44;
+    z-index: 100;
+    margin-top: 120px;
+    width: 100vw;
+}
+.navbar {
+    display: block;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: rgb(204, 210, 205);
+}
+
+#menuBtn {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+#menuBtn:hover {
+    color: rgba(204, 210, 205);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+    #menuBtn {
+        display: none;
+    }
+
+    nav{
+        margin-left: 200px;
+        display: block;
+        height: 0px;
+        width: 100%;
+        margin-top: 0px;
+        display:inline-block !important
+    }
+  
+  
+    nav ul li{
+        display: inline;
+        margin-left: 0px;
+    margin-top: 0px;
+    }
+
+    
+
+
+}

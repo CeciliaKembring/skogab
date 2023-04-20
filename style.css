@@ -150,7 +150,8 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 .imgService img {
-    width: 300px;
+    width: 350px;
+    
 }
 .textService{
     display: flex;
@@ -163,6 +164,30 @@ nav ul li a:hover {
 .textService h2{
     margin-bottom: 20px;
 }
+.boxService{
+    margin-top: 50px;
+    grid-template-areas: 
+    'serviceOne'
+    'serviceTwo'
+    'serviceThree';
+}
+.serviceOne{
+    position: relative;
+    text-align:center;
+    color: white;
+}
+.serviceTitle1{
+    font-size: 35px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    background-color: #E45D35;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 /* MEDIA QUERY */
 @media screen and (min-width: 650px) {
@@ -174,6 +199,25 @@ nav ul li a:hover {
 }
 .hero-title {
     margin-top: 400px;
+}
+
+
+}
+
+@media screen and (min-width: 750px) {
+.mainService{
+    display: grid;
+    grid-template-areas: 
+    'imgService textService';
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.textService{
+    margin-top: 30px;
 }
 }
 
@@ -197,10 +241,12 @@ nav ul li a:hover {
         margin-left: 0px;
     margin-top: 0px;
     }
-
-
-
-    
-
+    .mainService{
+        gap: 90px;
+    }
+    .imgService img {
+        width: 600px;
+        
+    }
 
 }

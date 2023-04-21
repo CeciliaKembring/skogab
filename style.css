@@ -87,8 +87,11 @@ footer{
 }
 .footer-columns{
     padding: 10px;
+    max-width: 1200px;
+    margin-left: 20px;
 }
 .phone, .email, .open, .adress, .about, .service, .social{
+   
     padding: 10px;
 }
 footer p{
@@ -113,6 +116,12 @@ footer a:hover{
 .about, .service{
     display: flex;
     flex-direction: column;
+}
+footer img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
 /* HERO IMAGE */
@@ -275,16 +284,14 @@ footer a:hover{
 .news a:hover{
     text-decoration: underline;
 }
-.newsBox{
-    display: grid;
-    grid-template-areas: 
-    'box1'
-    'box2';
-    
-}
+ 
 .box1, .box2{
     max-width: 400px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 .news img{
     width: 320px;
@@ -306,6 +313,12 @@ footer a:hover{
     width: 500px;
     
 }  
+.footer-columns{
+    display:grid;
+    grid-template-areas: 
+    'about service social';
+}
+
 
 }
 
@@ -327,6 +340,7 @@ footer a:hover{
     margin-top: 80px;
     margin-bottom: 120px;
 }
+
 }
 
 @media screen and (min-width: 900px) {

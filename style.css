@@ -473,6 +473,19 @@ footer img {
     font-size: 35px;
 }
 
+/* SERVICES HTML */
+.servicesTop{
+    padding: 20px;
+    max-width: 700px;
+    display: grid;
+    margin: 60px auto;
+    justify-content: center;
+    flex-direction: column;
+}
+.servicesTop p{
+    margin-bottom: 10px;
+}
+
 /* CONTACT HTML */
 
 
@@ -510,6 +523,7 @@ footer img {
         width: 600px;
     }
    
+
   
 
 

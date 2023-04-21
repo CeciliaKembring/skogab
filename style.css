@@ -336,6 +336,7 @@ footer img {
 
 .news p {
     max-width: 280px;
+    margin-bottom: 10px;
 }
 
 .news a:hover {
@@ -424,6 +425,28 @@ footer img {
     width: 340px;
 }
 
+/* NEWS HTML */
+.mainNews{
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+}
+.mainNews img{
+    width: 100%;
+}
+.mainNews p{
+    margin-bottom: 10px;
+}
+.newsPage h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
 /* CONTACT HTML */
 
 
@@ -457,6 +480,10 @@ footer img {
     .aboutTopBox{
         max-width: 600px;
     }
+    .mainNews{
+        width: 600px;
+    }
+   
   
 
 

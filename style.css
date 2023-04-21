@@ -203,6 +203,32 @@ footer img {
     background-color: #e87350;
 }
 
+/*B READCRUMBS */
+.breadcrumbs {
+    padding: 10px 16px;
+    list-style: none;
+    background-color:#f3efe8;
+}
+.breadcrumbs a{
+    color: black;
+    text-decoration: none;
+}
+.breadcrumbs a:hover{
+    text-decoration: underline;
+}
+
+.breadcrumbs li {
+    display: inline;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.breadcrumbs li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
 /* INDEX HTML */
 
 /* SERVICES */

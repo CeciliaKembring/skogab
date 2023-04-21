@@ -167,7 +167,7 @@ footer img{
 .serviceBtn{
     margin-top: 40px;
 }
-.hero-button {
+.hero-button, .aboutBtn {
     background-color: #E45D35;
     color: white;
     padding: 15px;
@@ -176,7 +176,7 @@ footer img{
     text-decoration: none;
 }
 
-.hero-button:hover {
+.hero-button:hover, .aboutBtn:hover {
     background-color: #e87350;
 }
 
@@ -211,6 +211,10 @@ footer img{
 }
 .textService h2{
     margin-bottom: 20px;
+}
+.aboutBtn{
+text-align: center;
+margin-top: 40px;
 }
 .line{
     display: flex;
@@ -299,6 +303,9 @@ footer img{
 }
 .news img{
     width: 320px;
+}
+.news{
+    margin-bottom: 40px;
 }
 
 

@@ -151,8 +151,8 @@ footer{
     grid-template-areas: 
     'imgService'
     'textService';
-    padding: 20px;
-    margin-top: 50px;
+    padding: 40px 20px;
+    background-color: #eaf1e2;
 }
 
 .imgService{
@@ -175,6 +175,15 @@ footer{
 .textService h2{
     margin-bottom: 20px;
 }
+.line{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.line img{
+    width: 370px;
+}
 .boxService{
     margin-top: 50px;
     grid-template-areas: 
@@ -194,10 +203,11 @@ footer{
     padding: 20px;
 }
 .serviceOne img:hover, .serviceTwo img:hover, .serviceThree img:hover{
-    filter: brightness(80%);
+    filter:opacity(80%);
 }
 .serviceOne img, .serviceTwo img, .serviceThree img{
     width: 350px;
+    border-radius: 20px;
 }
 
 
@@ -224,7 +234,10 @@ footer{
 .hero-title {
     margin-top: 400px;
 }
-
+.imgService img {
+    width: 500px;
+    
+}  
 
 }
 
@@ -233,15 +246,18 @@ footer{
     display: grid;
     grid-template-areas: 
     'imgService textService';
-    padding: 20px;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 50px;
     gap: 40px;
+    padding: 60px 20px;
 }
 
 .textService{
     margin-top: 30px;
+}
+.line{
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 }
 
@@ -267,11 +283,8 @@ footer{
     }
     .mainService{
         gap: 90px;
-    }
-    .imgService img {
-        width: 600px;
-        
-    }   
+    } 
+  
 
 }
 @media screen and (min-width: 1024px) {

@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monsterat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
 
 /* HEADER */
 header {
@@ -288,10 +289,13 @@ footer img{
 .box1, .box2{
     max-width: 400px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+   
+}
+.newsBox{
+    display: grid;
+    grid-template-areas: 'news1'
+    'news2';
     justify-content: center;
-    margin: 0 auto;
 }
 .news img{
     width: 320px;
@@ -340,6 +344,10 @@ footer img{
     margin-top: 80px;
     margin-bottom: 120px;
 }
+.newsBox{
+    display: grid;
+    grid-template-areas: 'news1 news2';
+}
 
 }
 
@@ -366,6 +374,9 @@ footer img{
     .mainService{
         gap: 90px;
     } 
+    .newsBox{
+        gap: 10%;
+    }
   
 
 }

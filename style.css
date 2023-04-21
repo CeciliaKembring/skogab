@@ -144,6 +144,7 @@ footer{
 }
 
 /* SERVICES */
+
 .mainService{
     padding: 30px;
     display: grid;
@@ -186,16 +187,17 @@ footer{
     text-decoration: none;
     font-weight: 300;
 }
-.boxService a:hover{
-    color: #e87350;
-}
+
 .serviceOne, .serviceTwo, .serviceThree{
     position: relative;
     text-align:center;
     padding: 20px;
 }
+.serviceOne img:hover, .serviceTwo img:hover, .serviceThree img:hover{
+    filter: brightness(80%);
+}
 .serviceOne img, .serviceTwo img, .serviceThree img{
-    width: 300px;
+    width: 350px;
 }
 
 
@@ -269,6 +271,12 @@ footer{
     .imgService img {
         width: 600px;
         
-    }
+    }   
 
 }
+@media screen and (min-width: 1024px) {
+.boxService{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+} }

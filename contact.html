@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/0dcb5f1b74.js" crossorigin="anonymous"></script>
-    <title>Kontakta oss</title>
+    <title>Nyheter</title>
 </head>
 <body>
     <header>
         <div class="mainHeader">
             <div class="logo">
-                <a href="index.html"><img src="images/logotype.png"></a>
+                <a href="index.html"><img src="images/logotype.png" alt="Logotyp"></a>
             </div>
             <nav class="navbar"> 
                 <ul>
@@ -39,10 +39,73 @@
                <a href="service.html" class="hero-button">Våra tjänster &raquo;</a>
             </div></div>
         </section>
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li>
+                    Kontakta oss
+                </li>
+            </ul>
+        </div>
+        <section class="mainContact">
+        <h2>Kontakta oss</h2>
+       <p>Du är välkommen att kontakta oss om du har några frågor eller önskar att få en offert.</p>
+       <p>Vår kundtjänst är öppen måndag - fredag mellan 8-16.</p>
+       <p></p>
+       <div class="contactForm">
+        <form action="contact.html" >
+          <label for="name">Namn:</label>
+          <input type="text" id="name" name="name" placeholder="Fyll i fullständigt namn...">    
+          <label for="mail">E-postadress:</label>
+          <input type="text" id="mail" name="E-postadress" placeholder="Fyll i din e-postadress...">
+          <label for="message">Meddelande:</label>
+          <textarea id="message" name="message" placeholder="Skriv meddelande här..."></textarea>
+          <input type="submit" value="Skicka">
+        </form>
+      </div>
+    </section>
     </main>
     <footer>
-
-    </footer>
+        <a href="index.html"><img src="images/logotype.png" alt="logo"></a>
+     <div class="footer-columns">
+        <div class="contact">
+            <div class="phone">
+        <p class="bold">Telefonnummer</p>
+        <p>012-3456789</p></div>
+        <div class="email">
+        <p class="bold">E-postadress</p>
+        <p>skog@skog.se</p></div>
+        <div class="open">
+        <p class="bold">Öppettider kundtjänst</p>
+        <p>måndag-fredag: 8-16</p>
+        </div>
+        <div class="adress">
+        <p class="bold">Adress</p>
+        <p>Skogsvägen 1</p>
+        <p>123 45 Skogby</p>
+        </div>
+        </div>
+        <div class="company">
+            <div class="about">
+            <p class="bold">Skog AB</p>
+            <a href="about.html">Om oss</a>
+            <a href="contact.html">Kontakta oss</a>
+            </div>
+            <div class="service">
+            <p class="bold">Våra tjänster</p>
+            <a href="service1.html">Trädfällning</a>
+            <a href="service2.html">Vedklyvning</a>
+            <a href="service3.html">Stubbfräsning</a>
+            </div>
+        </div>
+        <div class="social">
+            <p class="bold">Följ oss på sociala medier</p>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
     <script src="main.js"></script>
 </body>
 </html>

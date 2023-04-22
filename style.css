@@ -486,6 +486,9 @@ footer img {
 .servicesTop p{
     margin-bottom: 10px;
 }
+.servicesTop h3{
+    margin-top: 20px;
+}
 .servicePic img{
     display: flex;
     margin: 40px auto;
@@ -676,14 +679,12 @@ text-align: center;
     }
     .serviceBottom{
         display: grid;
-        grid-template-areas: 'serviceText serviceImg';
+        grid-template-areas: 'serviceText serviceImg'
+     ;
+     gap: 20px
     }
     .serviceText p{
         width: 500px;
         margin-bottom: 5px;
-    }
-    .serviceImage img{
-        margin-top: 30%;
-        margin-left: 12%;
     }
 }

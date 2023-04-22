@@ -142,6 +142,10 @@ footer img {
     margin: 0 auto;
     padding: 40px 20px;
 }
+.active{
+    text-decoration: underline;
+    color: white;
+}
 
 /* HERO IMAGE */
 .hero {

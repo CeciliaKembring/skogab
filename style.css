@@ -509,6 +509,7 @@ text-align: center;
 }
 .serviceTop img{
     max-width: 350px;
+    padding: 20px;
 }
 .service1boxBottom{
     background-color: #f3efe8;
@@ -519,24 +520,28 @@ text-align: center;
     justify-content: center;
     flex-direction: column;
     padding: 40px 20px;
-    max-width: 400px;
+    max-width: 1100px;
     margin-bottom: 80px;
 }
 .serviceBottom img{
-    max-width: 350px;
+    max-width: 330px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
     margin-top: 30px;
+    padding: 20px 30px;
+
 }
 .serviceBottom h3{
     text-align: center;
     font-size: 30px;
+    margin-top: 30px;
 }
-.serviceBottom h4{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 50px;
-}
+
 .serviceBottom p{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
 }
 
 
@@ -615,14 +620,11 @@ text-align: center;
     .aboutImg img{
         width: 500px;
     }
-    .servicePic img, .serviceTop img{
+    .servicePic img, .serviceTop img, .serviceImage img{
         max-width: 500px;
     }
-    .serviceBottom{
-        display: grid;
-        grid-template-areas: 'serviceText serviceImage';
-
-    }
+  
+ 
   
 
 }
@@ -638,7 +640,7 @@ text-align: center;
         height: 0px;
         width: 100%;
         margin-top: 0px;
-        display: inline-block !important;
+        display: block !important;
     }
 
 
@@ -663,6 +665,7 @@ text-align: center;
     }
 
 
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -670,5 +673,17 @@ text-align: center;
         display: flex;
         justify-content: center;
         margin: 0 auto;
+    }
+    .serviceBottom{
+        display: grid;
+        grid-template-areas: 'serviceText serviceImg';
+    }
+    .serviceText p{
+        width: 500px;
+        margin-bottom: 5px;
+    }
+    .serviceImage img{
+        margin-top: 30%;
+        margin-left: 12%;
     }
 }

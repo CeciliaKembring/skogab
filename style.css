@@ -40,7 +40,7 @@ nav {
 
     height: 250px;
     background-color: #505A44;
-    z-index: 100;
+    z-index: 10;
     margin-top: 120px;
     width: 100vw;
 }
@@ -73,11 +73,12 @@ nav ul li a:hover {
     position: absolute;
     right: 30px;
     top: 40px;
+    cursor: pointer;
 }
 
 #menuBtn:hover {
     color: rgba(204, 210, 205);
-    cursor: pointer;
+    
 }
 
 /* FOOTER */
